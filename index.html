@@ -1,16 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cupcake">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/0a5cf0955f.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <style>
+        .font-worksans {
+            font-family: "Work Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .manrope-font {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            /* font-weight: 800; */
+            font-style: normal;
+        }
+    </style>
 </head>
 
 <body>
+    <header class="md:container md:mx-auto lg:px-32 py-12 md:px-8 px-5">
+        <nav class="manrope-font">
+            <div class="navbar bg-base-100">
 
+
+                <div class="navbar-start">
+                    <i class="fa-solid fa-arrow-right-long -rotate-45 rounded-full bg-[#ABEF5F] px-2 py-2"></i>
+
+                    <a class="btn btn-ghost text-3xl font-extrabold">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="font-extrabold">Home</a></li>
+                        <li>
+                            <a>Services</a>
+                        </li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <i
+                        class="fa-solid fa-magnifying-glass md:mr-5 rounded-full bg-white px-2 py-2 hidden md:inline-flex"></i>
+                    <i
+                        class="fa-solid fa-cart-shopping md:mr-5 rounded-full bg-white px-2 py-2 hidden md:inline-flex"></i>
+
+                    <a
+                        class="btn btn-active btn-secondary text-black font-extrabold bg-[#ABEF5F] border-none hidden md:inline-flex">Book
+                        Consult<i
+                            class="fa-solid fa-arrow-right-long -rotate-45 rounded-full bg-[#1C1C1C] text-white px-2 py-2"></i></a>
+
+
+                </div>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
+                        <i class="fa-solid fa-bars rounded-full bg-white px-4 py-4"></i>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a class="font-extrabold">Home</a></li>
+                        <li>
+                            <a>Services</a>
+                        </li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
